@@ -1,0 +1,16 @@
+class Static
+{
+	static  int a ;
+	static int b = 20;
+	public static void main(String[] args) 
+	{
+		System.out.println(b);
+		
+			System.out.println(Static.b);
+			int  b = 30;
+			System.out.println(b);
+			int b  = 40;
+			System.out.println(b);
+
+	}
+}

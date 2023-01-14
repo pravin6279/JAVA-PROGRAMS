@@ -1,0 +1,8 @@
+class Child extends Parent 
+{
+	public static void demo()
+	{
+		//super.demo();
+		System.out.println("Demo() methos from child");
+	}
+}

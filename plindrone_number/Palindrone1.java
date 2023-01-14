@@ -1,0 +1,22 @@
+class Palindrone1 
+{
+	public static void main(String[] args) 
+	{
+		int n =  505;
+		int temp = n;
+		int sum = 0;
+		int r;
+		while (n >0)
+		{ 
+			r = n%10;
+			sum = (sum*10)+r;
+			n = n/10;
+		}
+		if(temp == sum ){
+		System.out.println("number  is palindrone number :" + temp);
+		}
+		else {
+			System.out.println("Number is not Palindrone number :"+ temp);
+		}
+	}
+}

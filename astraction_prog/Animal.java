@@ -1,0 +1,15 @@
+  abstract class Animal 
+
+{
+	abstract public void leave(); 
+	// abstract method
+    
+	public void demo()
+	{
+		System.out.println("Animal leaves in forest");
+	}
+
+
+	
+
+}

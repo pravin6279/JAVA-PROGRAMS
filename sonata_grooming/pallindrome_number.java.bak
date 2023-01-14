@@ -1,0 +1,27 @@
+// chech number palinadrome or not
+class  pallindrome_number
+{
+	public static void main(String[] args) 
+	{
+		int n = 454 ;
+		int sum = 0;
+		int temp = n;
+		int reminder;
+
+		while (n> 0)
+		{
+			reminder  = n % 10 ;
+			sum = (sum * 10) + reminder;
+			 n = n % 10;
+		}
+		if(temp  == sum ){
+			System.out.println("Number is plindeome number ");
+
+		}
+		else {
+			System.out.println("Number is not palindrome nunmber");
+		}
+
+
+	}
+}

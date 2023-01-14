@@ -1,0 +1,28 @@
+class This
+{
+	
+	private String name ;
+	private int age;
+
+	This()_1(String name ){
+		this(20);
+		System.out.println("Name of the student is :"name );
+	
+	}
+	This()_1(int age)
+	{
+		System.out.println("Age of student is :"+age);
+	}
+	This()_1()
+	{
+		this("Pravin");
+	}
+
+
+public static void main(string []args)
+{
+	This()_1 obj  =   new This()_1();
+	
+	
+}
+}

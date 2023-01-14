@@ -1,0 +1,7 @@
+class Driver 
+{
+	public static void main(String[] args) 
+	{
+		Static_member2 obj  = new Static_member2(Static_member2.a);
+	}
+}

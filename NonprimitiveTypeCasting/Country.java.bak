@@ -1,0 +1,9 @@
+class Country
+ 
+{
+	public void festival();
+	{
+		System.out.println("Festival across in Contry");
+	}
+	
+}

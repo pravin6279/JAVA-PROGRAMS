@@ -1,0 +1,19 @@
+class Pre_increment 
+{
+	public static void main(String[] args) 
+	{   
+		// increment value by 1 
+		// and use the updated value
+		 int  a = 15;
+		 ++a;
+		System.out.println(a);
+		 
+		 System.out.println("************************");
+		 int b  = 15 ;
+		 int c = ++b;
+		 int d = ++c;
+		 System.out.println(b);
+		 System.out.println(c);
+		 System.out.println(d);
+	}
+}

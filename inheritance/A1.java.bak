@@ -1,0 +1,6 @@
+class A1 
+{
+ public static Dog(){
+	System.out.println("Dog are barking");
+ }
+}

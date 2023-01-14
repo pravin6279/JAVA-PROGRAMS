@@ -1,0 +1,14 @@
+class My_program5 
+{
+	public static void main(String[] args) 
+	{
+		char  a = 'p';
+		double b = (double)a;
+		 System.out.println("Char Value  : "+a);
+		 System.out.println("Double Value : "+ b);
+			 System.out.println("************************************");
+
+		
+;
+	}
+}

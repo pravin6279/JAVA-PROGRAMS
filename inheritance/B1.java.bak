@@ -1,0 +1,7 @@
+class  B1 extends  A1
+
+{
+	public static void dog (){
+		System.out.println("loins are crawling");
+	}
+}

@@ -1,0 +1,15 @@
+class Driver 
+{
+	public static void main(String[] args) 
+	{
+		A1.Dog();
+		B1.Dog();
+		B1 obj  = new B1();
+		obj.Dog();
+		
+		// upcasting
+		A1 obj2 = obj;
+		obj2.Dog();
+
+	}
+}

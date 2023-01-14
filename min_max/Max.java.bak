@@ -1,0 +1,17 @@
+class Max 
+{
+	public static void main(String[] args) 
+	{   
+		int a = 132 ; 
+		int b = 165;
+		int max = a < b ? a:b;
+		System.out.println("Max_Value":+ max);
+
+		/*if(a<b){
+			max = a;
+		}else{
+			max = b;
+		}*/
+	}
+}
+ 

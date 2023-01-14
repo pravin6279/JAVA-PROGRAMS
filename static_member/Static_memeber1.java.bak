@@ -1,0 +1,13 @@
+class Static_memeber1 
+{  
+	static int a= 10; 
+}
+	 
+Class Demo
+
+	public static void main(String[] args) 
+	{
+		Demo obj = new Demo(Static_memeber1.a);
+
+	}
+}

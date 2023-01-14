@@ -1,0 +1,35 @@
+class Employee 
+{
+	String emp_name;
+	int emp_id;
+	private double emp_sal;
+
+	//getter method
+	 public double getemp_sal()
+	{
+		return emp_sal;
+	}
+
+	//Setter method
+	
+    public void setemp_sal(double sal)
+	{
+		this.emp_sal = sal;
+	}
+
+	//create parameterised construcator
+
+	Employee(String a,int b,double c)
+	{
+		this.emp_name = a;
+		this.emp_id = b;
+		this.emp_sal = c;
+	}
+
+	public void display()
+	{
+		System.out.println("Employee name is"+emp_name);
+		System.out.println("Employee id is"+emp_id);
+		System.out.println("Employee salary is"+emp_sal);
+	}
+}

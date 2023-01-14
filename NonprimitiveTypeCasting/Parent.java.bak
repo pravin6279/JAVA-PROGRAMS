@@ -1,0 +1,7 @@
+class Parent 
+{
+	public static void demo()
+	{
+		System.out.println("Demo () method from parent")
+	}
+}

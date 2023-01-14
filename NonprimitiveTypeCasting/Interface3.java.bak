@@ -1,0 +1,11 @@
+class Interface3 implements Interface,Interface2
+{
+	void msg()
+	{
+		System.out.println("My Name is Pravin");
+	}
+	void demo()
+	{
+		System.out.println("Here is Interface");
+	}
+}

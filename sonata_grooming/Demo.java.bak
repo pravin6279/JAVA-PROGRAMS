@@ -1,0 +1,13 @@
+class Demo
+
+{
+	public  void call ( String obj){
+		System.out.println("Object");
+	}
+	public  void call ( String str){
+		System.out.println("string");
+	}
+
+
+
+}

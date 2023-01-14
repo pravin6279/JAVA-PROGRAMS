@@ -1,0 +1,8 @@
+ abstract class A1 
+{
+    abstract public void demo();
+	//here is abstract method we can terminate with the  semicolon and prefix with abstarct keyword
+	abstract public void demo1();
+	// in this 
+ 
+}

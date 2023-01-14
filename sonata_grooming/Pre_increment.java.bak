@@ -1,0 +1,14 @@
+class Pre_increment1
+{   
+	// increment value by 1 
+	  // use updated value
+	public static void main(String[] args)   
+	{  
+		int a =  15 ;
+		++a;
+		System.out.println(a);
+
+		
+
+	}
+}

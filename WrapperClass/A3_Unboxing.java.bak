@@ -1,0 +1,53 @@
+class A3_Unboxing 
+{
+	public static void main(String[] args) 
+	{
+		Integer obj = 1234;
+		int a  = obj.intValue();
+		System.out.println(obj);
+		System.out.println(a);
+		System.out.println("#*************************#");
+
+		Short obj2 = 323;
+		short b  = obj2.shortValue();
+		System.out.println(obj2);
+		System.out.println(b);
+		System.out.println("#*****************************#");
+
+        Byte obj3 = 123;
+		byte c  = obj3.bytetValue();
+		System.out.println(obj3);
+		System.out.println(c);
+		System.out.println("#*****************************#");
+
+		Character obj4 = 'A';
+		char d  = obj4.charValue();
+		System.out.println(obj4);
+		System.out.println(d);
+		System.out.println("#*****************************#");
+
+		Long obj5 = 9527547531L;
+		long e = obj5.longValue();
+		System.out.println(obj5);
+		System.out.println(e);
+		System.out.println("#*****************************#");
+
+		Float obj6 = 12.83f;
+		float g  = obj6.floatValue();
+		System.out.println(obj6);
+		System.out.println(g);
+		System.out.println("#*****************************#");
+		
+		Double obj7  = 34.98;
+		double h = obj7.doubleValue();
+		System.out.println(obj7);
+		System.out.println(h);
+		System.out.println("#**********************************#");
+
+		Boolean obj8 = false;
+		boolean t = obj8.booleanValue();
+		System.out.println(obj8);
+		System.out.println(t);
+
+	}
+}

@@ -1,0 +1,27 @@
+class Static_member1 
+{
+	int empid ;
+	String emp_name;
+	String Company_name;
+
+	 Static_member1  ( int empid,String emp_name,String Company_name)
+	{
+		 this.empid= empid ;
+		 this.emp_name  = emp_name ;
+		 this.Company_name = Company_name;
+	}
+		void display()
+	{
+		System.out.println(empid +" : "+emp_name+" : "+Company_name+" ");
+	}
+
+	public static void main(String[] args) 
+	{
+		
+     Static_member1  obj = new Static_member1 (101,"Akshay","Infosys");
+	 obj.display();
+	 Static_member1 obj2  =  new Static_member1(102,"Yogesh","Infosys");
+	 obj2.display();
+	
+	}
+}

@@ -1,0 +1,48 @@
+class A1 
+{
+	public static void main(String[] args) 
+	{   
+		// primitive data type into object class
+		int a = 100;
+		String obj1 = String.valueOf(a);
+		System.out.println(a);
+		System.out.println(obj1);
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>");
+
+		char b = 'A';
+		Character obj2 = Character.valueOf(b);
+		System.out.println(b);
+		System.out.println(obj2);
+		System.out.println("<<<<<<<<<<<<<<<<<<<<<<<");
+
+		byte c = 10;
+		Byte obj3  = Byte.valueOf(c);
+		System.out.println(c);
+		System.out.println(obj3);
+		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>");
+
+		long d = 952754753;
+		Long obj4 = Long.valueOf(d);
+		System.out.println(d);
+		System.out.println(obj4);
+		System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<");
+
+		float f = 3.4;
+		Float obj5 = Float.valueOf(f);
+		System.out.println(f);
+		System.out.println(obj5);
+		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>");
+
+		double   g  = 45.87866;
+		Double obj6 = Double.valueOf(g);
+		System.out.println(g);
+		System.out.println(obj6);
+		System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
+
+		boolean p = false;
+		Boolean obj7 = Boolean.valueOf(p);
+		System.out.println(p);
+		System.out.println(obj7);
+
+			}
+}
